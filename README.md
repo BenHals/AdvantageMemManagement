@@ -3,7 +3,7 @@ When dealing with streams of data, classification systems must take into account
 
 Managing how these models are stored is an important open research problem. To store a model repository in memory, it becomes neccessary to delete or merge models. The decision of which models to delete or merge can have a large impact on the performance and explainibility of a system. In this project, we propose a new `Advantage` based policy to manage memory. This policy optimizes both performance and explainibility.
 
-![Advantage of a model](https://github.com/BenHals/AdvantageMemManagement/raw/main/fig-1.png)
+![Advantage of a model](https://github.com/BenHals/AdvantageMemManagement/blob/main/fig-1.pdf?raw=true)
 # Implementation
 
 The basic idea of advantage is to measure the benefit of storing and reusing a model compared to rebuilding a replacement model.
