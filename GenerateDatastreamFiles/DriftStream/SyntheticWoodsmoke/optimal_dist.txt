@@ -1,0 +1,8 @@
+1 knot = 0.514 m/s
+
+Average wind strengtth = 2.2 knots = 1.131 m/s
+
+With 1min ts: 67.848m
+
+with 10min ts: 678.48m
+
