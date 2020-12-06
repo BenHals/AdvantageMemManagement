@@ -10,11 +10,7 @@ The basic idea of advantage is to measure the benefit of storing and reusing a m
 A finite state machine is proposed as an efficient method of storing the information needed to compute this measure online.
 
 ## Instructions to Run
-0. Install
-- numpy
-- scikit-multiflow 0.4.0
-- tqdm
-- psutil
+1. Install packages in requirements.txt
 2. Create a data directory. This will contain the data set to run classification systems on. 
 3. Create data sets. The system expects a nested folder structure, with the directory names indicating parameters. The bottom level data sets are expected to be in ARFF format. The script `GenerateDatastreamFiles\generate_dataset.py` can be used to create the synthetic data sets used in the paper. The data directory to create files in should be passed using the `-d` commandline argument. Other arguments modify the data sets created, such as `-st` for the type of stream, `-nc` for the total number of concepts, `-hd` and `-ed` for the difficulty levels to use (e.g. the depth of the tree used to label observations in the TREE data set). These are set to the defaults used in the paper.
 4. To run classifiers on datasets, use the `FSMAdaptiveClassifier\run_datastream_classifier.py` script. Set commandline arguments. Most are set to reasonable defaults. 
